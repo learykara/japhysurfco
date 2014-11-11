@@ -1,0 +1,17 @@
+{% extends 'splash_base.html' %}
+
+{% block content %}
+
+<div id="gallery">
+	{% for i in range(1, 35) %}
+	<div class="img-box">
+		<a class="fancybox" rel="group" href="../static/images/gallery/img_{{i}}.jpg">
+			<img src="../static/images/gallery/img_{{i}}.jpg">
+		</a>
+	</div>
+	{% endfor %}
+</div>
+
+{% endblock %}
+
+<!-- <a class="fancybox" rel="group" href="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"><img class="logo" src="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"></a> -->

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Japhy Surf Co</title>
+	<link rel="shortcut icon" href="../static/images/logo-no-bg.png">
+	<link rel="stylesheet" href="../static/css/reset.css">
+	<link rel="stylesheet" href="../static/css/style.css">
+	<script src="../static/js/jquery-2.1.1.min.js"></script>
+	<script src="../static/js/app.js"></script>
+
+	<!-- fancybox -->
+	<script src="../static/js/jquery.fancybox.pack.js"></script>
+	<script src="../static/js/jquery.fancybox-buttons.js"></script>
+	<link rel="stylesheet" href="../static/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="../static/css/jquery.fancybox-buttons.css">
+
+	<!-- fontawesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="body">
+	<div id="left">
+		<a href="/">
+			<div id="logo">
+				<img src="../static/images/logo-no-bg.png" alt="Japhy Surf Co.">
+			</div>
+		</a>
+		<div id="nav">
+			<!-- <a href='/about'><li class="{% if selectedClass == 'about'%}selected{% endif %}"><img src="../static/images/nav/about.png"></li></a>
+			<a href='/products'><li class="{% if selectedClass == 'products'%}selected{% endif %}"><img src="../static/images/nav/products.png"></li></a>
+			<a href='/gallery'><li class="{% if selectedClass == 'gallery'%}selected{% endif %}"><img src="../static/images/nav/gallery.png"></li></a>
+			<a href='/purchase'><li class="{% if selectedClass == 'purchase'%}selected{% endif %}"><img src="../static/images/nav/purchase.png"></li></a>
+			<a href='/contact'><li class="{% if selectedClass == 'contact'%}selected{% endif %}"><img src="../static/images/nav/contact.png"></li></a> -->
+			<a href='/about'><li class="{% if selectedClass == 'about'%}selected{% endif %}">Our Story</li></a>
+			<a href='/products'><li class="{% if selectedClass == 'products'%}selected{% endif %}">Products</li></a>
+			<a href='/gallery'><li class="{% if selectedClass == 'gallery'%}selected{% endif %}">Gallery</li></a>
+			<a href='/purchase'><li class="{% if selectedClass == 'purchase'%}selected{% endif %}">Purchase</li></a>
+			<a href='/contact'><li class="{% if selectedClass == 'contact'%}selected{% endif %}">Contact Us</li></a>
+		</div>
+	</div>
+	<div class="line-vertical"></div>
+
+	<div id="right">
+		<!-- <div><img class="headline" src="../static/images/nav/{{selectedClass}}.png" alt="{selectedClass}"></div> -->
+		<div class="headline {% if selectedClass == 'gallery' or selectedClass == 'about' %}top-align{% endif %}">{% if selectedClass != 'home' %}{{ selectedClass }}{% endif %}</div>
+		{% block content %}{% endblock %}
+	</div>
+</div>
+</body>
+</html>

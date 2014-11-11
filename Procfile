@@ -1,0 +1,1 @@
+web: gunicorn japhy.app:app

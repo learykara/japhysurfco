@@ -1,0 +1,196 @@
+
+#body {
+	max-width: 960px;
+	width: 90%;
+	margin: 3em auto;
+	position: relative;
+	height: 580px;
+	font-family: Avenir;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+a {
+	cursor: pointer;
+}
+#left {
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	left: 0;
+	top: 0;
+	vertical-align: top;
+}
+#logo img {
+	max-width: 12em;
+	width: 80%;
+	display: block;
+	margin: 1em auto;
+}
+
+/* Navigation */
+#nav {
+	list-style-type: none;
+	font-size: 30px;
+	width: 85%;
+	margin: 10% auto;
+}
+#nav a {
+	text-decoration: none;
+	padding: 7% 0;
+	color: #232e3c;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+#nav a:hover {
+	color: #55627F;
+}
+#nav a img {
+	max-width: 100%;
+	padding: .3em 0;
+}
+#nav .selected {
+	text-decoration: underline;
+}
+
+.headline {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10%;
+}
+.headline.top-align {
+	margin-top: 0%;
+}
+
+#right {
+	display: inline-block;
+	position: relative;
+	width: 65%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	vertical-align: sub;
+}
+
+.line-vertical {
+	display: inline-block;
+	position: absolute;
+	left: 29%;
+	width: 3%;
+	border-left: 1px solid black;
+	height: 36em;
+}
+
+/* Homepage */
+.cover {
+	max-width: 100%;
+}
+
+/* Products */
+.product-gif {
+	max-width: 90%;
+	display: block;
+	margin: 10% auto;
+}
+
+/* Purchase */
+#purchase {
+	margin-top: 10%;
+}
+#purchase img {
+	display: inline-block;
+	width: 48%;
+	height: auto;
+}
+#kickstarter {
+	display: block;
+	margin: auto;
+	width: 200px;
+	max-width: 50%;
+	border-radius: 4px;
+	background-color: #232e3c;
+	cursor: pointer;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	margin-top: 5em;
+}
+
+/* Gallery */
+#gallery {
+	height: 100%;
+	overflow: auto;
+}
+#gallery .img-box {
+	width: 32%;
+	margin: auto;
+	overflow: hidden;
+	display: inline-block;
+}
+#gallery img {
+	height: 100%;
+}
+
+/* Contact Us */
+.contact {
+	display: block;
+	max-width: 220px;
+	width: 90%;
+	margin: 10% auto;
+}
+.contact li {
+	list-style-type: none;
+	margin: 5% 0;
+}
+.contact li:hover {
+	color: #55627F;
+}
+.contact li a {
+	text-decoration: none;
+	color: black;
+}
+.contact li a:hover {
+	/*color: #55627F;*/
+}
+i.fa.fa-envelope-o,
+i.fa.fa-facebook-square,
+i.fa.fa-twitter-square,
+i.fa.fa-tumblr-square,
+i.fa.fa-instagram {
+	font-size: 300%;
+	cursor: pointer;
+	color: black;
+	margin-right: 10px;
+}
+i.fa.fa-envelope-o:hover,
+i.fa.fa-facebook-square:hover,
+i.fa.fa-twitter-square:hover,
+i.fa.fa-tumblr-square:hover,
+i.fa.fa-instagram:hover {
+	color: #55627F;
+}
+
+/* Our Story */
+#video {
+	max-width: 90%;
+	display: block;
+	margin: auto;
+	padding-top: 3%;
+}
+.content {
+	clear: left;
+	padding-top: 3%;
+}
+.content p {
+	font-family: arial;
+	text-transform: none;
+	letter-spacing: 0px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 1% 0;
+}
+.content p em {
+	font-weight: 900;
+}
