@@ -23,10 +23,10 @@ a {
 	vertical-align: top;
 }
 #logo img {
-	max-width: 12em;
-	width: 80%;
+	max-width: 14em;
+	width: 100%;
 	display: block;
-	margin: 1em auto;
+	margin: 0;
 }
 
 /* Navigation */
@@ -82,7 +82,7 @@ a {
 	left: 29%;
 	width: 3%;
 	border-left: 1px solid black;
-	height: 36em;
+	height: 39em;
 }
 
 /* Homepage */
@@ -91,10 +91,29 @@ a {
 }
 
 /* Products */
+#products {
+	height: 100%;
+	overflow: auto;
+}
 .product-gif {
 	max-width: 90%;
 	display: block;
 	margin: 10% auto;
+}
+
+.full-width {
+	max-width: 100%;
+}
+.full-width img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+.full-width .left-img,
+.full-width .right-img {
+	display: inline-block;
+	width: 49%;
+	margin: auto;
 }
 
 /* Purchase */
@@ -186,6 +205,7 @@ i.fa.fa-instagram:hover {
 .content {
 	clear: left;
 	padding-top: 3%;
+	padding-left: 3%;
 }
 .content p {
 	font-family: arial;
@@ -197,4 +217,25 @@ i.fa.fa-instagram:hover {
 }
 .content p em {
 	font-weight: 900;
+}
+
+/* mobile responsiveness */
+@media all and (max-width: 800px) {
+	#nav,
+	.line-vertical {
+		display: none;
+	}
+	#logo img ,
+	#left,
+	#right {
+		display: block;
+		margin: auto;
+	}
+	#logo {
+		min-width: 800px;
+		width: 100%;
+	}
+	.headline {
+
+	}
 }

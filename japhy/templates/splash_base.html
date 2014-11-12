@@ -38,7 +38,7 @@
 	<div class="line-vertical"></div>
 
 	<div id="right">
-		<div class="headline {% if selectedClass == 'gallery' or selectedClass == 'our-story' %}top-align{% endif %}">{% if selectedClass != 'home' %}{{ selectedClass.replace('-', ' ') }}{% endif %}</div>
+		<div class="headline {% if selectedClass == 'gallery' or selectedClass == 'our-story' or selectedClass == 'products' %}top-align{% endif %}">{% if selectedClass != 'home' %}{{ selectedClass.replace('-', ' ') }}{% endif %}</div>
 		{% block content %}{% endblock %}
 	</div>
 </div>
