@@ -107,7 +107,7 @@ a {
 .full-width img {
 	max-width: 100%;
 	display: block;
-	margin: auto;
+	margin: 1% auto;
 }
 .full-width .left-img {
 	display: inline-block;
@@ -208,7 +208,7 @@ i.fa.fa-instagram:hover {
 	margin: auto;
 	padding-top: 3%;
 }
-#vide iframe {
+#video iframe {
 	display: block;
 	margin: auto;
 }
@@ -235,15 +235,20 @@ i.fa.fa-instagram:hover {
 	.line-vertical {
 		display: none;
 	}
-	#logo img ,
 	#left,
 	#right {
+		width: 90%;
 		display: block;
 		margin: auto;
 	}
 	#logo {
-		min-width: 800px;
 		width: 100%;
+		display: block;
+		margin: auto;
+	}
+	#logo img {
+		width: 75%;
+		margin: auto;
 	}
 	.headline {
 
