@@ -1,0 +1,31 @@
+{% extends 'splash_base.html' %}
+
+{% block content %}
+
+<div id="video">
+	<!-- begin embedded QuickTime file... -->
+	<table border="0" cellpadding="0" align="left">
+	    <!-- begin video window... -->
+	    <tr>
+	    	<td>
+	        	<OBJECT classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' width="740" height="460" codebase='http://www.apple.com/qtactivex/qtplugin.cab'>
+			        <param name='src' value="../static/images/kickstart.mov">
+			        <param name='autoplay' value="false">
+			        <param name='controller' value="true">
+			        <param name='loop' value="false">
+			        <EMBED src="../static/images/kickstart.mov" width="540" height="303.75" scale="tofit" autoplay="false" controller="true" loop="false" pluginspage='http://www.apple.com/quicktime/download/'></EMBED>
+	        	</OBJECT>
+	        </td>
+	    </tr>
+	    <!-- ...end embedded QuickTime file -->
+	</table>
+</div>
+<div class="content">
+	<p><em>The Beachnik trunk was born on a surfing road trip.</em></p>
+
+	<p>After a surfing road trip in the winter of 2013, I decided I was sick of taking off my wet trunks and having no way to conveniently store them. Inevitably, they would end up in the back of my car, dripping all over the rest of my belongings. This trip was the inspiration for the creation of the Beachnik trunk. The built in waterproof stuff-sac allows for a way to easily store your wet trunks after use. Don't let your adventures be soggy.</p>
+
+	<p><em>Bring a pair on your next adventure.</em></p>
+</div>
+
+{% endblock %}

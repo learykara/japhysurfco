@@ -3,15 +3,13 @@
 {% block content %}
 
 <div id="gallery">
-	{% for i in range(1, 35) %}
-	<div class="img-box">
+	{% for i in range(1, 40) %}
+	<div class="img-box" style="background-image: url('../static/images/gallery/img_{{i}}.jpg'); background-size: cover;">
 		<a class="fancybox" rel="group" href="../static/images/gallery/img_{{i}}.jpg">
-			<img src="../static/images/gallery/img_{{i}}.jpg">
+			<img src="../static/images/gallery/img_{{i}}.jpg" style="visibility: hidden;">
 		</a>
 	</div>
 	{% endfor %}
 </div>
 
 {% endblock %}
-
-<!-- <a class="fancybox" rel="group" href="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"><img class="logo" src="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"></a> -->

@@ -5,10 +5,11 @@
 	margin: 3em auto;
 	position: relative;
 	height: 580px;
-	font-family: Avenir;
+	font-family: "Gill Sans";
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	color: #232e3c;
 }
 a {
 	cursor: pointer;
@@ -32,7 +33,7 @@ a {
 #nav {
 	list-style-type: none;
 	font-size: 30px;
-	width: 85%;
+	width: 95%;
 	margin: 10% auto;
 }
 #nav a {
@@ -43,6 +44,7 @@ a {
 	width: 100%;
 	cursor: pointer;
 	box-sizing: border-box;
+	font-size: 90%;
 }
 #nav a:hover {
 	color: #55627F;
@@ -149,7 +151,7 @@ a {
 }
 .contact li a {
 	text-decoration: none;
-	color: black;
+	color: #232e3c;
 }
 .contact li a:hover {
 	/*color: #55627F;*/
@@ -161,8 +163,10 @@ i.fa.fa-tumblr-square,
 i.fa.fa-instagram {
 	font-size: 300%;
 	cursor: pointer;
-	color: black;
+	color: #232e3c;
 	margin-right: 10px;
+	width: 60px;
+	vertical-align: sub;
 }
 i.fa.fa-envelope-o:hover,
 i.fa.fa-facebook-square:hover,

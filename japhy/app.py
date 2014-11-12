@@ -11,9 +11,9 @@ app = Flask(__name__)
 def home():
     return render_template('home.html', selectedClass='home')
 
-@app.route('/about')
-def about():
-	return render_template('about.html', selectedClass='about')
+@app.route('/our-story')
+def ourstory():
+	return render_template('our-story.html', selectedClass='our-story')
 
 @app.route('/products')
 def products():
@@ -27,9 +27,9 @@ def gallery():
 def purchase():
 	return render_template('purchase.html', selectedClass='purchase')
 
-@app.route('/contact')
+@app.route('/contact-us')
 def contact():
-	return render_template('contact.html', selectedClass='contact')
+	return render_template('contact-us.html', selectedClass='contact-us')
 
 if __name__ == '__main__':
     app.run(debug=True)
