@@ -1,1 +1,1 @@
-web: gunicorn japhy.app:app
+web: gunicorn japhy:app
