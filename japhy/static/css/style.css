@@ -109,11 +109,17 @@ a {
 	display: block;
 	margin: auto;
 }
-.full-width .left-img,
+.full-width .left-img {
+	display: inline-block;
+	width: 49%;
+	margin: auto;
+	flaot: left;
+}
 .full-width .right-img {
 	display: inline-block;
 	width: 49%;
 	margin: auto;
+	float: right;
 }
 
 /* Purchase */
@@ -136,7 +142,7 @@ a {
 	padding: 1em;
 	text-align: center;
 	color: white;
-	margin-top: 5em;
+	margin-top: 3em;
 }
 
 /* Gallery */
@@ -201,6 +207,10 @@ i.fa.fa-instagram:hover {
 	display: block;
 	margin: auto;
 	padding-top: 3%;
+}
+#vide iframe {
+	display: block;
+	margin: auto;
 }
 .content {
 	clear: left;

@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div id="gallery">
+<div id="gallery" class="mCustomScrollbar">
 	{% for i in range(1, 40) %}
 	<div class="img-box" style="background-image: url('../static/images/gallery/img_{{i}}.jpg'); background-size: cover;">
 		<a class="fancybox" rel="group" href="../static/images/gallery/img_{{i}}.jpg">
