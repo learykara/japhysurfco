@@ -61,6 +61,7 @@ a {
 	font-size: 50px;
 	text-align: center;
 	margin-top: 10%;
+	color: #232e3c;
 }
 .headline.top-align {
 	margin-top: 0%;
@@ -163,23 +164,20 @@ a {
 /* Contact Us */
 .contact {
 	display: block;
-	max-width: 220px;
+	max-width: 280px;
 	width: 90%;
 	margin: 10% auto;
 }
-.contact li {
-	list-style-type: none;
-	margin: 5% 0;
-}
-.contact li:hover {
-	color: #55627F;
-}
-.contact li a {
+.contact a {
 	text-decoration: none;
 	color: #232e3c;
 }
-.contact li a:hover {
-	/*color: #55627F;*/
+.contact a:hover {
+	color: #55627F;
+}
+.contact a div {
+	width: 80%;
+	margin: 5% auto;
 }
 i.fa.fa-envelope-o,
 i.fa.fa-facebook-square,
@@ -191,7 +189,7 @@ i.fa.fa-instagram {
 	color: #232e3c;
 	margin-right: 10px;
 	width: 60px;
-	vertical-align: sub;
+	vertical-align: middle;
 }
 i.fa.fa-envelope-o:hover,
 i.fa.fa-facebook-square:hover,
@@ -251,6 +249,9 @@ i.fa.fa-instagram:hover {
 		margin: auto;
 	}
 	.headline {
-
+		font-size: 2em;
+	}
+	#kickstarter {
+		width: auto;
 	}
 }

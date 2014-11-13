@@ -4,12 +4,14 @@
 
 <div id="gallery" class="mCustomScrollbar">
 	{% for i in range(1, 40) %}
-	<div class="img-box" style="background-image: url('../static/images/gallery/img_{{i}}.jpg'); background-size: cover;">
-		<a class="fancybox" rel="group" href="../static/images/gallery/img_{{i}}.jpg">
-			<img src="../static/images/gallery/img_{{i}}.jpg" style="visibility: hidden;">
-		</a>
-	</div>
+	<a class="fancybox" rel="group" href="../static/images/gallery/img_{{i}}.jpg">
+		<div class="img-box" style="background-image: url('../static/images/gallery/img_{{i}}.jpg'); background-size: cover;">
+		</div>
+	</a>
 	{% endfor %}
 </div>
 
 {% endblock %}
+			<!-- <img src="../static/images/gallery/img_{{i}}.jpg" style="visibility: hidden;"> -->
+
+<!-- <a class="fancybox" rel="group" href="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"><img class="logo" src="/learn/static/guides/color-theory-basics/images/mcdonalds-logo.jpg"></a> -->
