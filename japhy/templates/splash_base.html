@@ -9,12 +9,6 @@
 	<script src="../static/js/jquery-2.1.1.min.js"></script>
 	<script src="../static/js/app.js"></script>
 
-	<!-- fancybox -->
-	<script src="../static/js/jquery.fancybox.pack.js"></script>
-	<script src="../static/js/jquery.fancybox-buttons.js"></script>
-	<link rel="stylesheet" href="../static/css/jquery.fancybox.css">
-	<link rel="stylesheet" href="../static/css/jquery.fancybox-buttons.css">
-
 	<!-- fontawesome -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -39,6 +33,7 @@
 			<a href='/contact-us'><li class="{% if selectedClass == 'contact-us'%}selected{% endif %}">Contact Us</li></a>
 		</div>
 	</div>
+
 	<div class="line-vertical"></div>
 
 	<div id="right">
@@ -46,5 +41,11 @@
 		{% block content %}{% endblock %}
 	</div>
 </div>
+
+	<!-- fancybox -->
+	<script src="../static/js/jquery.fancybox.pack.js"></script>
+	<script src="../static/js/jquery.fancybox-buttons.js"></script>
+	<link rel="stylesheet" href="../static/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="../static/css/jquery.fancybox-buttons.css">
 </body>
 </html>

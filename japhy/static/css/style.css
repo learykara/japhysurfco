@@ -128,7 +128,7 @@ a {
 	margin-top: 10%;
 }
 #purchase p {
-	padding-top: 2em;
+	padding-top: 3em;
 	width: 90%;
 	margin: auto;
 	text-align: center;
@@ -229,16 +229,33 @@ i.fa.fa-instagram:hover {
 	font-weight: normal;
 	line-height: 1.5;
 	margin: 1% 0;
+	text-align: justify;
 }
 .content p em {
 	font-weight: 900;
+}
+#nav-mobile {
+	display: none;
 }
 
 /* mobile responsiveness */
 @media all and (max-width: 800px) {
 	#nav,
-	.line-vertical {
+	.line-vertical,
+	.cover {
 		display: none;
+	}
+	#nav-mobile {
+		display: block;
+	}
+	#nav-mobile a{
+		display: block;
+		width: 90%;
+		margin: 13% auto;
+		text-align: center;
+		text-decoration: none;
+		color: inherit;
+		font-size: 170%;
 	}
 	#left,
 	#right {
@@ -252,13 +269,42 @@ i.fa.fa-instagram:hover {
 		margin: auto;
 	}
 	#logo img {
-		width: 75%;
-		margin: auto;
+		width: 55%;
+		margin: 0 auto 1em auto;
 	}
-	.headline {
+	.headline,
+	.top-align {
 		font-size: 2em;
+		margin: .8em auto;
 	}
 	#kickstarter {
 		width: auto;
+		max-width: 90%;
+	}
+	#video iframe {
+		height: 9em;
+		width: auto;
+		max-width: 100%;
+	}
+	.contact {
+		font-size: 80%;
+	}
+	.contact a div {
+		width: 90%;
+	}
+	i.fa.fa-envelope-o,
+	i.fa.fa-facebook-square,
+	i.fa.fa-twitter-square,
+	i.fa.fa-tumblr-square,
+	i.fa.fa-instagram {
+		margin-right: 0px;
+		width: 40px;
+	}
+	#gallery,
+	#products {
+		overflow: visible;
+	}
+	#gallery .img-box {
+		width: 48%;
 	}
 }
