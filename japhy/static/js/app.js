@@ -13,4 +13,6 @@ $(function() {
 		$('#gallery').removeClass('mCustomScrollbar');
 		$('#products').removeClass('mCustomScrollbar');
 	}
+
+	$('#products-head').text('Beachnik Trunk')
 });
