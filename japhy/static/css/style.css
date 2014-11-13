@@ -239,7 +239,7 @@ i.fa.fa-instagram:hover {
 }
 
 /* mobile responsiveness */
-@media all and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 	#nav,
 	.line-vertical,
 	.cover {
