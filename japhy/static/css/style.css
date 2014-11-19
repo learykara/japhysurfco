@@ -13,6 +13,7 @@
 }
 a {
 	cursor: pointer;
+	text-decoration: none;
 }
 #left {
 	display: inline-block;
@@ -150,6 +151,9 @@ a {
 	text-align: center;
 	color: white;
 	margin-top: 3em;
+}
+#kickstarter:hover {
+	background-color: #55627F;
 }
 
 /* Gallery */
